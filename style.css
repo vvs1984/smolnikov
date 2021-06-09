@@ -346,11 +346,11 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 #iframespot {
   background-color: rgb(58,68,84);
-  height:   1920px;
+  height:   1080px;
   left:     0px;
   position: absolute;
   top:      0px;
-  width:    1080px;
+  width:    1920px;
 }
 
 #iframespot .message {
