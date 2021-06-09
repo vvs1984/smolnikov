@@ -114,7 +114,7 @@
 	  church: '<<iframe id="church" src="../church/" type="text/html" width="1920" height="1080" frameborder="0" scrolling="no" allowfullscreen="true" ></iframe>',
 	  fiat500: '<iframe id="fiat500" src="../fiat-500/" type="text/html" width="1920" height="1080" frameborder="0" scrolling="no" allowfullscreen="true" ></iframe>',
 	  ostashevo: '<iframe id="ostashevo"  src="../ostashevo/" type="text/html" width="1920" height="1080" frameborder="0" scrolling="no" allowfullscreen="true" ></iframe>',
-	  hotel_demo: '<iframe id="hotel_demo" src="../superior/" type="text/html" width="1920" height="1080" frameborder="0" scrolling="no" allowfullscreen="true"> </iframe>'
+	  hotel_demo: '<iframe id="hotel_demo" src="../superior/" type="text/html" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%" scrolling="auto"> </iframe>'
 	};
 
 	// Switch sources when clicked.
