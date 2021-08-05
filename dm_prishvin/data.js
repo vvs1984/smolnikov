@@ -1,805 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-garden_27",
-      "name": "garden_27",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": -2.4132401991136057,
-        "pitch": 0.16929896447209103,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.6552825678634449,
-          "pitch": 0.5678386546288365,
-          "rotation": 0,
-          "target": "1-garden_1"
-        },
-        {
-          "yaw": -0.07030619338993738,
-          "pitch": 0.3046739629805657,
-          "rotation": 0,
-          "target": "25-garden_26"
-        },
-        {
-          "yaw": -2.861729752854183,
-          "pitch": 0.2177840554733077,
-          "rotation": 0,
-          "target": "34-in_1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-garden_1",
-      "name": "garden_1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": -0.5589314657113835,
-        "pitch": 0.2668325208668527,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.5232992839941666,
-          "pitch": 0.6039684919758557,
-          "rotation": 0,
-          "target": "2-garden_2"
-        },
-        {
-          "yaw": 2.33232328843118,
-          "pitch": 0.1045130588815244,
-          "rotation": 0,
-          "target": "0-garden_27"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-garden_2",
-      "name": "garden_2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": -0.17184841460160882,
-        "pitch": 0.06165263417145361,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": 3.0181210276719845,
-          "pitch": 0.24950001063808713,
-          "rotation": 0,
-          "target": "1-garden_1"
-        },
-        {
-          "yaw": -0.30024809894649707,
-          "pitch": 0.4804349137986996,
-          "rotation": 0,
-          "target": "3-garden_3"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-garden_3",
-      "name": "garden_3",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": -2.893442713750259,
-        "pitch": 0.1531966060808294,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.4046371390937402,
-          "pitch": 0.2312312797701761,
-          "rotation": 0,
-          "target": "2-garden_2"
-        },
-        {
-          "yaw": -3.046391554293322,
-          "pitch": 0.473048764386677,
-          "rotation": 0,
-          "target": "4-garden_4"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-garden_4",
-      "name": "garden_4",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": -1.532176322321245,
-        "pitch": 0.20223592603723262,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.78022548754568,
-          "pitch": 0.19774294053457808,
-          "rotation": 0,
-          "target": "3-garden_3"
-        },
-        {
-          "yaw": -1.5105655427586804,
-          "pitch": 0.4665831666571272,
-          "rotation": 0,
-          "target": "5-garden_5"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "5-garden_5",
-      "name": "garden_5",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": -1.6692592806159752,
-        "pitch": 0.26174646369450194,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.6428594895628112,
-          "pitch": 0.2153121686988797,
-          "rotation": 0,
-          "target": "4-garden_4"
-        },
-        {
-          "yaw": -1.5044513487490327,
-          "pitch": 0.4767892445868558,
-          "rotation": 0,
-          "target": "6-garden_6"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "6-garden_6",
-      "name": "garden_6",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": -2.0229342438587476,
-        "pitch": 0.2237637045029235,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.2497966507188742,
-          "pitch": 0.21026741729436438,
-          "rotation": 0,
-          "target": "5-garden_5"
-        },
-        {
-          "yaw": -1.8211790210577092,
-          "pitch": 0.3538664420980311,
-          "rotation": 0,
-          "target": "7-garden_7"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "7-garden_7",
-      "name": "garden_7",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": -2.204451293144233,
-        "pitch": 0.21875181041257719,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.092322495471306,
-          "pitch": 0.5189703662728711,
-          "rotation": 0,
-          "target": "8-garden_9"
-        },
-        {
-          "yaw": 1.2104788014241876,
-          "pitch": 0.24295881952726894,
-          "rotation": 0,
-          "target": "6-garden_6"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "8-garden_9",
-      "name": "garden_9",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": -2.4851873950075536,
-        "pitch": 0.28013778684986335,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.250694144140498,
-          "pitch": 0.4482740960445497,
-          "rotation": 0,
-          "target": "11-garden_12"
-        },
-        {
-          "yaw": 0.13308592764858318,
-          "pitch": 0.4361645877835958,
-          "rotation": 0,
-          "target": "7-garden_7"
-        },
-        {
-          "yaw": 1.643401779621258,
-          "pitch": 0.37621479866571406,
-          "rotation": 0,
-          "target": "9-garden_10"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "9-garden_10",
-      "name": "garden_10",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": 1.0960921890990463,
-        "pitch": -0.07064077126668522,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.5090549391976547,
-          "pitch": 0.2025918287006121,
-          "rotation": 0,
-          "target": "10-garden_11"
-        },
-        {
-          "yaw": -1.482179134589611,
-          "pitch": 0.32923418445160024,
-          "rotation": 0,
-          "target": "8-garden_9"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "10-garden_11",
-      "name": "garden_11",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": 1.2142495788955294,
-        "pitch": -0.13421056594299152,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.2462930755535968,
-          "pitch": 0.3304273310344392,
-          "rotation": 0,
-          "target": "9-garden_10"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "11-garden_12",
-      "name": "garden_12",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": 1.7227728469826165,
-        "pitch": 0.1418434557328876,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.4559533582113673,
-          "pitch": 0.4154631732336824,
-          "rotation": 0,
-          "target": "8-garden_9"
-        },
-        {
-          "yaw": 1.611308481437515,
-          "pitch": 0.4000233259714303,
-          "rotation": 0,
-          "target": "12-garden_13"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "12-garden_13",
-      "name": "garden_13",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": 2.510849395858024,
-        "pitch": 0.21351658102835103,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.8112189683130158,
-          "pitch": 0.28281407947008574,
-          "rotation": 0,
-          "target": "11-garden_12"
-        },
-        {
-          "yaw": 2.470453699987143,
-          "pitch": 0.4147357285205011,
-          "rotation": 0,
-          "target": "13-garden_14"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "13-garden_14",
-      "name": "garden_14",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": 1.5605011802291706,
-        "pitch": 0.19056789165662735,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.6428099391043745,
-          "pitch": 0.34596126489326906,
-          "rotation": 0,
-          "target": "12-garden_13"
-        },
-        {
-          "yaw": 1.9090473348697605,
-          "pitch": 0.32138484970323056,
-          "rotation": 0,
-          "target": "14-garden_15"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "14-garden_15",
-      "name": "garden_15",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": -1.8055241314531756,
-        "pitch": 0.20310941530345872,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.4260786728546737,
-          "pitch": 0.2893290451113959,
-          "rotation": 0,
-          "target": "13-garden_14"
-        },
-        {
-          "yaw": -1.6752902449946703,
-          "pitch": 0.3480691946350589,
-          "rotation": 0,
-          "target": "15-garden_16"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "15-garden_16",
-      "name": "garden_16",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": -1.9399743683444868,
-        "pitch": 0.15900153580035692,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.7021698617006251,
-          "pitch": 0.3324697847852409,
-          "rotation": 0,
-          "target": "14-garden_15"
-        },
-        {
-          "yaw": -1.5635986579757493,
-          "pitch": 0.4276438701226155,
-          "rotation": 0,
-          "target": "16-garden_17"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "16-garden_17",
-      "name": "garden_17",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": -1.4333981762924992,
-        "pitch": 0.19662248769011192,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.983952752739425,
-          "pitch": 0.3284996021457154,
-          "rotation": 0,
-          "target": "15-garden_16"
-        },
-        {
-          "yaw": -1.3275297482321875,
-          "pitch": 0.44631497734781966,
-          "rotation": 0,
-          "target": "17-garden_18"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "17-garden_18",
-      "name": "garden_18",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": 2.925764329568935,
-        "pitch": 0.21973222088974964,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": 3.140068389518996,
-          "pitch": 0.33617760236310623,
-          "rotation": 0,
-          "target": "16-garden_17"
-        },
-        {
-          "yaw": 2.4110629848225056,
-          "pitch": 0.2645410661402092,
-          "rotation": 0,
-          "target": "18-garden_19"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "18-garden_19",
+      "id": "0-garden_19",
       "name": "garden_19",
       "levels": [
         {
@@ -822,28 +24,22 @@ var APP_DATA = {
       ],
       "faceSize": 1824,
       "initialViewParameters": {
-        "yaw": -0.4033014410576268,
-        "pitch": 0.21237002491830026,
-        "fov": 1.35820747241737
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 2.394658131637792,
-          "pitch": 0.34568409148851487,
+          "yaw": -0.26573830958498057,
+          "pitch": 0.22019887450126063,
           "rotation": 0,
-          "target": "17-garden_18"
-        },
-        {
-          "yaw": -0.2119802237383155,
-          "pitch": 0.27622949640752026,
-          "rotation": 0,
-          "target": "19-garden_20"
+          "target": "1-garden_20"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "19-garden_20",
+      "id": "1-garden_20",
       "name": "garden_20",
       "levels": [
         {
@@ -866,28 +62,28 @@ var APP_DATA = {
       ],
       "faceSize": 1824,
       "initialViewParameters": {
-        "yaw": -0.3664883858846846,
-        "pitch": 0.07416978528657836,
+        "yaw": 0.05811872255972972,
+        "pitch": 0.28951133423928255,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": 3.096743518587834,
-          "pitch": 0.37532309591741786,
+          "yaw": 3.001247362439626,
+          "pitch": 0.34215202283858837,
           "rotation": 0,
-          "target": "18-garden_19"
+          "target": "0-garden_19"
         },
         {
-          "yaw": -0.08871621646836125,
-          "pitch": 0.17781560320694467,
+          "yaw": -0.11931975783066306,
+          "pitch": 0.23428787618369995,
           "rotation": 0,
-          "target": "20-garden_21"
+          "target": "2-garden_21"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "20-garden_21",
+      "id": "2-garden_21",
       "name": "garden_21",
       "levels": [
         {
@@ -910,29 +106,29 @@ var APP_DATA = {
       ],
       "faceSize": 1824,
       "initialViewParameters": {
-        "yaw": -0.5262845723522567,
-        "pitch": 0.00560470758906817,
+        "yaw": -0.15842297223607993,
+        "pitch": 0.1270400386855144,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": -0.3784216248126633,
-          "pitch": 0.20281677429870015,
+          "yaw": -0.38188758484560026,
+          "pitch": 0.16291122080088627,
           "rotation": 0,
-          "target": "21-garden_22"
+          "target": "3-garden_22-"
         },
         {
-          "yaw": 2.745984741964075,
-          "pitch": 0.40531404245440683,
+          "yaw": 2.78558718275604,
+          "pitch": 0.4055637631622204,
           "rotation": 0,
-          "target": "19-garden_20"
+          "target": "4-garden_23-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "21-garden_22",
-      "name": "garden_22",
+      "id": "3-garden_22-",
+      "name": "garden_22-",
       "levels": [
         {
           "tileSize": 256,
@@ -954,29 +150,29 @@ var APP_DATA = {
       ],
       "faceSize": 1824,
       "initialViewParameters": {
-        "yaw": 0.21640916839415603,
-        "pitch": 0.09898342631509749,
+        "yaw": 0.07787500646300138,
+        "pitch": 0.175632179417601,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": -3.0556585309370075,
-          "pitch": 0.44268401303180305,
+          "yaw": -0.040627435074204854,
+          "pitch": 0.15237082385600864,
           "rotation": 0,
-          "target": "20-garden_21"
+          "target": "4-garden_23-"
         },
         {
-          "yaw": -0.002560671389240099,
-          "pitch": 0.16809959480577064,
+          "yaw": -3.114881826277454,
+          "pitch": 0.43165502323134497,
           "rotation": 0,
-          "target": "22-garden_23"
+          "target": "2-garden_21"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "22-garden_23",
-      "name": "garden_23",
+      "id": "4-garden_23-",
+      "name": "garden_23-",
       "levels": [
         {
           "tileSize": 256,
@@ -998,28 +194,28 @@ var APP_DATA = {
       ],
       "faceSize": 1824,
       "initialViewParameters": {
-        "yaw": -0.14556615532949202,
-        "pitch": 0.12642233979712714,
-        "fov": 1.35820747241737
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -3.0917390232922077,
-          "pitch": 0.4470121752740841,
+          "yaw": -0.01519030180156733,
+          "pitch": 0.11114088918608545,
           "rotation": 0,
-          "target": "21-garden_22"
+          "target": "5-garden_24"
         },
         {
-          "yaw": -0.0003133912596968713,
-          "pitch": 0.1668458484924642,
+          "yaw": 3.120743471575036,
+          "pitch": 0.38364772928305513,
           "rotation": 0,
-          "target": "23-garden_24"
+          "target": "3-garden_22-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "23-garden_24",
+      "id": "5-garden_24",
       "name": "garden_24",
       "levels": [
         {
@@ -1042,28 +238,28 @@ var APP_DATA = {
       ],
       "faceSize": 1824,
       "initialViewParameters": {
-        "yaw": 1.9176805156287688,
-        "pitch": 0.13941710127804718,
+        "yaw": 2.1546185513081557,
+        "pitch": 0.08513817718629468,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": -1.4318274137061273,
-          "pitch": 0.3807686917548523,
+          "yaw": -1.4657075612056367,
+          "pitch": 0.4560605106202136,
           "rotation": 0,
-          "target": "22-garden_23"
+          "target": "4-garden_23-"
         },
         {
-          "yaw": 1.7007990507479072,
-          "pitch": 0.01591428399521888,
+          "yaw": 1.6985675588568876,
+          "pitch": 0.03856849565590359,
           "rotation": 0,
-          "target": "24-garden_25"
+          "target": "6-garden_25"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "24-garden_25",
+      "id": "6-garden_25",
       "name": "garden_25",
       "levels": [
         {
@@ -1086,28 +282,28 @@ var APP_DATA = {
       ],
       "faceSize": 1824,
       "initialViewParameters": {
-        "yaw": 2.253172805635633,
-        "pitch": 0.18495535043922828,
+        "yaw": 2.5438717508719186,
+        "pitch": 0.09470545819775467,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": -1.5346985138695697,
-          "pitch": 0.46911947421188316,
+          "yaw": 2.232081330485255,
+          "pitch": 0.1935444766436376,
           "rotation": 0,
-          "target": "23-garden_24"
+          "target": "7-garden_26"
         },
         {
-          "yaw": 2.3133523614769773,
-          "pitch": 0.15083541785551446,
+          "yaw": -1.546557726497383,
+          "pitch": 0.35430164440220224,
           "rotation": 0,
-          "target": "25-garden_26"
+          "target": "5-garden_24"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "25-garden_26",
+      "id": "7-garden_26",
       "name": "garden_26",
       "levels": [
         {
@@ -1130,28 +326,72 @@ var APP_DATA = {
       ],
       "faceSize": 1824,
       "initialViewParameters": {
-        "yaw": 3.089926692821102,
-        "pitch": 0.2936244031383666,
+        "yaw": 2.222416921315853,
+        "pitch": 0.06915215854083456,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": -1.9517824816527494,
-          "pitch": 0.267634555488538,
+          "yaw": -2.024155423987647,
+          "pitch": 0.2755515359597034,
           "rotation": 0,
-          "target": "24-garden_25"
+          "target": "6-garden_25"
         },
         {
-          "yaw": 1.6619094173357256,
-          "pitch": 0.34715620571941486,
+          "yaw": 1.7237279277035817,
+          "pitch": 0.29926230866908554,
           "rotation": 0,
-          "target": "0-garden_27"
+          "target": "8-garden_27"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "26-balkony_1",
+      "id": "8-garden_27",
+      "name": "garden_27",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1824,
+      "initialViewParameters": {
+        "yaw": -2.31386871120114,
+        "pitch": 0.185137651179339,
+        "fov": 1.35820747241737
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.01364720884268067,
+          "pitch": 0.31744893219018344,
+          "rotation": 0,
+          "target": "7-garden_26"
+        },
+        {
+          "yaw": -2.8390524336947536,
+          "pitch": 0.18780781837060267,
+          "rotation": 0,
+          "target": "22-in3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-balkony_1",
       "name": "balkony_1",
       "levels": [
         {
@@ -1172,30 +412,30 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1824,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -2.5067436163758217,
-        "pitch": 0.4852490775789242,
+        "yaw": -2.521996198047951,
+        "pitch": 0.12612518765562086,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": -2.8366157438733755,
-          "pitch": 0.5012694041275267,
+          "yaw": 0.8449898018225248,
+          "pitch": 0.4391945269134254,
           "rotation": 0,
-          "target": "29-balkony_4"
+          "target": "12-balkony_4"
         },
         {
-          "yaw": -1.4683237359627483,
-          "pitch": 0.7052871223149815,
+          "yaw": 2.205738126091309,
+          "pitch": 0.645526391317425,
           "rotation": 0,
-          "target": "27-balkony_2"
+          "target": "10-balkony_2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "27-balkony_2",
+      "id": "10-balkony_2",
       "name": "balkony_2",
       "levels": [
         {
@@ -1216,30 +456,30 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1824,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -0.029261475945141058,
-        "pitch": 0.3134629088764882,
+        "yaw": -0.4832933019411598,
+        "pitch": 0.07621798037601835,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": -0.9013476468197119,
-          "pitch": 0.6552184293416765,
-          "rotation": 0,
-          "target": "26-balkony_1"
+          "yaw": 1.8043144203960368,
+          "pitch": 0.7919053279248729,
+          "rotation": 5.497787143782138,
+          "target": "9-balkony_1"
         },
         {
-          "yaw": 0.8466877210889976,
-          "pitch": 0.650488232276766,
-          "rotation": 0,
-          "target": "28-balkony_3"
+          "yaw": -2.7530961876435107,
+          "pitch": 0.7144770013362773,
+          "rotation": 7.0685834705770345,
+          "target": "11-balkony_3"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "28-balkony_3",
+      "id": "11-balkony_3",
       "name": "balkony_3",
       "levels": [
         {
@@ -1260,30 +500,30 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1824,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -0.8824418745433569,
-        "pitch": 0.3536955980491072,
+        "yaw": 1.1525287511542341,
+        "pitch": -0.015426823215573648,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": -0.8323551518900825,
-          "pitch": 0.5526649477964618,
+          "yaw": -2.608063604288116,
+          "pitch": 0.5011774749408549,
           "rotation": 0,
-          "target": "29-balkony_4"
+          "target": "12-balkony_4"
         },
         {
-          "yaw": -2.0574980769644178,
-          "pitch": 0.6148321944997726,
+          "yaw": 2.0269438990612585,
+          "pitch": 0.5759682982140752,
           "rotation": 0,
-          "target": "27-balkony_2"
+          "target": "10-balkony_2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "29-balkony_4",
+      "id": "12-balkony_4",
       "name": "balkony_4",
       "levels": [
         {
@@ -1304,36 +544,98 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1824,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 3.1372527472207903,
-        "pitch": 0.2967019234553643,
+        "yaw": 1.455360429918743,
+        "pitch": 0.17374593526111148,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": -0.01983181124337463,
-          "pitch": 0.6118979632643828,
+          "yaw": -1.7941969560962097,
+          "pitch": 0.5687970982504922,
           "rotation": 0,
-          "target": "33-big_4"
+          "target": "13-big_0"
         },
         {
-          "yaw": 2.513236448347455,
-          "pitch": 0.5454654050359053,
+          "yaw": -1.7304909785780467,
+          "pitch": 0.14671103502244165,
           "rotation": 0,
-          "target": "28-balkony_3"
+          "target": "24-in1-v2"
         },
         {
-          "yaw": -2.618115439993005,
-          "pitch": 0.5008540381833999,
-          "rotation": 0,
-          "target": "26-balkony_1"
+          "yaw": 0.8913655795462105,
+          "pitch": 0.476403062175919,
+          "rotation": 5.497787143782138,
+          "target": "11-balkony_3"
+        },
+        {
+          "yaw": 1.9049927984786805,
+          "pitch": 0.4282074508793503,
+          "rotation": 7.0685834705770345,
+          "target": "9-balkony_1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "30-big_1",
+      "id": "13-big_0",
+      "name": "big_0",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -0.9701476200027486,
+        "pitch": 0.168141227672022,
+        "fov": 1.35820747241737
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.0428900978754534,
+          "pitch": 0.40884142514578947,
+          "rotation": 0,
+          "target": "12-balkony_4"
+        },
+        {
+          "yaw": 2.1347848243311223,
+          "pitch": 0.5563034846415391,
+          "rotation": 0,
+          "target": "16-big_3"
+        },
+        {
+          "yaw": 2.200396198698117,
+          "pitch": 0.32104464680326217,
+          "rotation": 0,
+          "target": "24-in1-v2"
+        },
+        {
+          "yaw": 0.46120312435569666,
+          "pitch": 0.4091943862445149,
+          "rotation": 0,
+          "target": "14-big_1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "14-big_1",
       "name": "big_1",
       "levels": [
         {
@@ -1354,30 +656,30 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1824,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -0.6175780430133777,
-        "pitch": 0.2335294828778185,
+        "yaw": 0.3410104846204387,
+        "pitch": 0.2615545195843687,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": -1.6909357954770527,
-          "pitch": 0.6059177992773233,
+          "yaw": 1.2049704127601117,
+          "pitch": 0.3732244109728384,
           "rotation": 0,
-          "target": "31-big_2"
+          "target": "13-big_0"
         },
         {
-          "yaw": 0.18745092640995864,
-          "pitch": 0.42619887485558294,
+          "yaw": -0.5350494871125058,
+          "pitch": 0.5903095842325463,
           "rotation": 0,
-          "target": "33-big_4"
+          "target": "15-big_2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "31-big_2",
+      "id": "15-big_2",
       "name": "big_2",
       "levels": [
         {
@@ -1398,30 +700,30 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1824,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -2.660316514065494,
-        "pitch": 0.4258688131566082,
+        "yaw": 0.8860906500486667,
+        "pitch": 0.40540718227588,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": -1.705137471486795,
-          "pitch": 0.6401239182715468,
+          "yaw": 1.7527600020868306,
+          "pitch": 0.49462707263991135,
           "rotation": 0,
-          "target": "30-big_1"
+          "target": "14-big_1"
         },
         {
-          "yaw": 2.6197905610183962,
-          "pitch": 0.4241146389922932,
+          "yaw": -0.02436952462371167,
+          "pitch": 0.4290221027620653,
           "rotation": 0,
-          "target": "32-big_3"
+          "target": "16-big_3"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "32-big_3",
+      "id": "16-big_3",
       "name": "big_3",
       "levels": [
         {
@@ -1442,224 +744,42 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1824,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 2.5548205836701747,
-        "pitch": 0.39924770913534147,
+        "yaw": -1.0955297458672248,
+        "pitch": 0.29144825482590875,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": -2.9997807416038,
-          "pitch": 0.4612631469215067,
+          "yaw": -0.18667381624377022,
+          "pitch": 0.3664790134955851,
           "rotation": 0,
-          "target": "31-big_2"
+          "target": "15-big_2"
         },
         {
-          "yaw": 1.5103081543997217,
-          "pitch": 0.522551276094827,
+          "yaw": -1.8753572752247862,
+          "pitch": 0.4803415929571244,
           "rotation": 0,
-          "target": "33-big_4"
+          "target": "13-big_0"
         },
         {
-          "yaw": -1.4050122954254363,
-          "pitch": 0.5502181166487894,
+          "yaw": -1.91750513553729,
+          "pitch": 0.23962120721832392,
           "rotation": 0,
-          "target": "36-in_3"
+          "target": "12-balkony_4"
+        },
+        {
+          "yaw": 1.3785903737910594,
+          "pitch": 0.5530630429756833,
+          "rotation": 0,
+          "target": "24-in1-v2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "33-big_4",
-      "name": "big_4",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": -2.852075878165911,
-        "pitch": 0.47224181363369055,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": 3.0653454066732513,
-          "pitch": 0.37938318994260456,
-          "rotation": 0,
-          "target": "30-big_1"
-        },
-        {
-          "yaw": -1.5603874946725824,
-          "pitch": 0.6704979425507105,
-          "rotation": 0,
-          "target": "32-big_3"
-        },
-        {
-          "yaw": 1.3848923585729267,
-          "pitch": 0.46143553373800295,
-          "rotation": 0,
-          "target": "29-balkony_4"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "34-in_1",
-      "name": "in_1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": -0.33832536269428104,
-        "pitch": 0.2708942001382688,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.2073487473116682,
-          "pitch": 0.5234294116177267,
-          "rotation": 0,
-          "target": "35-in_2"
-        },
-        {
-          "yaw": -3.0804006389298877,
-          "pitch": 0.24803461499240242,
-          "rotation": 0,
-          "target": "0-garden_27"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "35-in_2",
-      "name": "in_2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": 2.765577347761443,
-        "pitch": 0.2574064485418113,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.9673718575066275,
-          "pitch": 0.5028901907821393,
-          "rotation": 0,
-          "target": "36-in_3"
-        },
-        {
-          "yaw": -1.7877577892383414,
-          "pitch": 0.4946504509957421,
-          "rotation": 0,
-          "target": "34-in_1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "36-in_3",
-      "name": "in_3",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1824,
-      "initialViewParameters": {
-        "yaw": 0.14499658401184234,
-        "pitch": 0.3437553987961408,
-        "fov": 1.35820747241737
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.7019384818800045,
-          "pitch": 0.544889987332688,
-          "rotation": 0,
-          "target": "40-sleeping_1"
-        },
-        {
-          "yaw": 0.015308553862780627,
-          "pitch": 0.6547141310821623,
-          "rotation": 0,
-          "target": "32-big_3"
-        },
-        {
-          "yaw": 2.8118426710876765,
-          "pitch": 0.5451500695683507,
-          "rotation": 0,
-          "target": "35-in_2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "37-kabinet_1",
+      "id": "17-kabinet_1",
       "name": "kabinet_1",
       "levels": [
         {
@@ -1680,30 +800,42 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1824,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.0402339382892283,
-        "pitch": 0.3000446139622355,
+        "yaw": 2.103793780257975,
+        "pitch": 0.25594772035367797,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": 1.7267441136903798,
-          "pitch": 0.846302097336272,
+          "yaw": -0.425632952133423,
+          "pitch": 0.6647822005781627,
           "rotation": 0,
-          "target": "38-kabinet_2"
+          "target": "21-sleepeng_2"
         },
         {
-          "yaw": -1.8414182580656622,
-          "pitch": 0.7014279036100675,
+          "yaw": 3.0000559515990375,
+          "pitch": 0.7046848289907679,
           "rotation": 0,
-          "target": "40-sleeping_1"
+          "target": "18-kabinet_2"
+        },
+        {
+          "yaw": 2.9714697490121926,
+          "pitch": 0.41541072189037465,
+          "rotation": 0,
+          "target": "19-kabinet_3"
+        },
+        {
+          "yaw": 0.06208172302019044,
+          "pitch": 0.5988237905350804,
+          "rotation": 7.0685834705770345,
+          "target": "21-sleepeng_2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "38-kabinet_2",
+      "id": "18-kabinet_2",
       "name": "kabinet_2",
       "levels": [
         {
@@ -1724,30 +856,36 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1824,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -0.03882618626463952,
-        "pitch": 0.23191358329603418,
+        "yaw": 0.024166097335307057,
+        "pitch": 0.27463067186430834,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": -1.392468748424145,
-          "pitch": 0.7670548944309648,
+          "yaw": -1.403543956505274,
+          "pitch": 0.660260823773756,
           "rotation": 0,
-          "target": "37-kabinet_1"
+          "target": "17-kabinet_1"
         },
         {
-          "yaw": 1.801611332590559,
-          "pitch": 0.828225845684031,
+          "yaw": 1.6129516654960083,
+          "pitch": 0.7351026952048407,
           "rotation": 0,
-          "target": "39-kabinet_3"
+          "target": "19-kabinet_3"
+        },
+        {
+          "yaw": -1.5818537073960215,
+          "pitch": 0.4250150173311944,
+          "rotation": 0,
+          "target": "20-sleepeng_1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "39-kabinet_3",
+      "id": "19-kabinet_3",
       "name": "kabinet_3",
       "levels": [
         {
@@ -1768,25 +906,31 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1824,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -0.5168913759860381,
-        "pitch": 0.21485088504301508,
+        "yaw": 0.3853184550245281,
+        "pitch": 0.2466071339189604,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": -1.5771506079089619,
-          "pitch": 0.7810779199702704,
+          "yaw": -0.24100302084877434,
+          "pitch": 0.7375323163544198,
           "rotation": 0,
-          "target": "38-kabinet_2"
+          "target": "18-kabinet_2"
+        },
+        {
+          "yaw": -0.3101490847856354,
+          "pitch": 0.4576886183220896,
+          "rotation": 0,
+          "target": "17-kabinet_1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "40-sleeping_1",
-      "name": "sleeping_1",
+      "id": "20-sleepeng_1",
+      "name": "sleepeng_1",
       "levels": [
         {
           "tileSize": 256,
@@ -1806,37 +950,31 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1824,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 2.1449427769175173,
-        "pitch": 0.3736125515215214,
+        "yaw": -1.445938157229154,
+        "pitch": 0.3232048043028968,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": 1.5886878617802704,
-          "pitch": 0.6047353079760391,
+          "yaw": -1.957892523132987,
+          "pitch": 0.5281984338409753,
           "rotation": 0,
-          "target": "41-sleeping_2"
+          "target": "21-sleepeng_2"
         },
         {
-          "yaw": 2.781093411245097,
-          "pitch": 0.5644977875293229,
+          "yaw": -1.018324148610068,
+          "pitch": 0.638448861168623,
           "rotation": 0,
-          "target": "37-kabinet_1"
-        },
-        {
-          "yaw": -1.59890596193231,
-          "pitch": 0.6372208031977298,
-          "rotation": 0,
-          "target": "36-in_3"
+          "target": "17-kabinet_1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "41-sleeping_2",
-      "name": "sleeping_2",
+      "id": "21-sleepeng_2",
+      "name": "sleepeng_2",
       "levels": [
         {
           "tileSize": 256,
@@ -1856,24 +994,174 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1824,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 2.8581861453059396,
-        "pitch": 0.3305948175099651,
+        "yaw": 0.32512241837132727,
+        "pitch": 0.3363836727701166,
         "fov": 1.35820747241737
       },
       "linkHotspots": [
         {
-          "yaw": -1.934323560285499,
-          "pitch": 0.7958659451274936,
+          "yaw": 1.7318677001338676,
+          "pitch": 0.5476423896196447,
           "rotation": 0,
-          "target": "40-sleeping_1"
+          "target": "20-sleepeng_1"
+        },
+        {
+          "yaw": 1.4701135932762313,
+          "pitch": 0.4637297299727621,
+          "rotation": 5.497787143782138,
+          "target": "17-kabinet_1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "22-in3",
+      "name": "in3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -3.0728115773587845,
+        "pitch": 0.32533993100349257,
+        "fov": 1.35820747241737
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.135188581526336,
+          "pitch": 0.5192370985264052,
+          "rotation": 0,
+          "target": "23-in2_v2"
+        },
+        {
+          "yaw": 0.18752273519316276,
+          "pitch": 0.16481814929483285,
+          "rotation": 0,
+          "target": "8-garden_27"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "23-in2_v2",
+      "name": "in2_v2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -1.6486702678562182,
+        "pitch": 0.20364146986489473,
+        "fov": 1.35820747241737
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.593591869645497,
+          "pitch": 0.45930512331175954,
+          "rotation": 0,
+          "target": "24-in1-v2"
+        },
+        {
+          "yaw": 0.08421619019962634,
+          "pitch": 0.5486047573610442,
+          "rotation": 0,
+          "target": "22-in3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "24-in1-v2",
+      "name": "in1-v2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 0.6001240873694886,
+        "pitch": 0.2746297490965759,
+        "fov": 1.35820747241737
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.16964695083700398,
+          "pitch": 0.6064781050420649,
+          "rotation": 0,
+          "target": "20-sleepeng_1"
+        },
+        {
+          "yaw": 1.4245621327573517,
+          "pitch": 0.6560799297852267,
+          "rotation": 0,
+          "target": "16-big_3"
+        },
+        {
+          "yaw": 1.3292568267765716,
+          "pitch": 0.1500219691266409,
+          "rotation": 0,
+          "target": "12-balkony_4"
+        },
+        {
+          "yaw": -2.0017887215986914,
+          "pitch": 0.4349040061062954,
+          "rotation": 0,
+          "target": "23-in2_v2"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "DM_Prishvin",
+  "name": "dm_prishvin",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
