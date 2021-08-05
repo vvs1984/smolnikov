@@ -968,12 +968,15 @@ var APP_DATA = {
           "pitch": 0.638448861168623,
           "rotation": 0,
           "target": "17-kabinet_1"
+<<<<<<< HEAD
         },
         {
           "yaw": 1.41497042837441,
           "pitch": 0.6737723747671804,
           "rotation": 0.7853981633974483,
           "target": "24-in1-v2"
+=======
+>>>>>>> parent of 419882f4 (del old)
         }
       ],
       "infoHotspots": []
