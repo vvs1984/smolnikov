@@ -1,0 +1,69 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?71b397740c2fd9e062d8e7f637e4cc81") format("truetype"),
+url("./flaticon.woff?71b397740c2fd9e062d8e7f637e4cc81") format("woff"),
+url("./flaticon.woff2?71b397740c2fd9e062d8e7f637e4cc81") format("woff2"),
+url("./flaticon.eot?71b397740c2fd9e062d8e7f637e4cc81#iefix") format("embedded-opentype"),
+url("./flaticon.svg?71b397740c2fd9e062d8e7f637e4cc81#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "job-seeker": "\f101",
+    "car-rounded-old-model": "\f102",
+    "museum": "\f103",
+    "index": "\f104",
+    "hotel-bell": "\f105",
+    "real-estate": "\f106",
+    "social-care": "\f107",
+    "verified-user": "\f108",
+    "time-left": "\f109",
+    "loupe": "\f10a",
+    "bars": "\f10b",
+);
+
+.flaticon-job-seeker:before {
+    content: map-get($flaticon-map, "job-seeker");
+}
+.flaticon-car-rounded-old-model:before {
+    content: map-get($flaticon-map, "car-rounded-old-model");
+}
+.flaticon-museum:before {
+    content: map-get($flaticon-map, "museum");
+}
+.flaticon-index:before {
+    content: map-get($flaticon-map, "index");
+}
+.flaticon-hotel-bell:before {
+    content: map-get($flaticon-map, "hotel-bell");
+}
+.flaticon-real-estate:before {
+    content: map-get($flaticon-map, "real-estate");
+}
+.flaticon-social-care:before {
+    content: map-get($flaticon-map, "social-care");
+}
+.flaticon-verified-user:before {
+    content: map-get($flaticon-map, "verified-user");
+}
+.flaticon-time-left:before {
+    content: map-get($flaticon-map, "time-left");
+}
+.flaticon-loupe:before {
+    content: map-get($flaticon-map, "loupe");
+}
+.flaticon-bars:before {
+    content: map-get($flaticon-map, "bars");
+}
